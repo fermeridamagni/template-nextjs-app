@@ -54,3 +54,47 @@ body::-webkit-scrollbar-thumb {
   --color-yellow: #c2b500;
   --color-yellow-active: #9e9402;
 }
+
+/* Animations */
+.items-hover-animation {
+  transition: 0.25s;
+}
+.items-hover-animation:hover {
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+.items-hover-animation:active {
+  transform: translateY(-0.5em);
+  cursor: pointer;
+}
+  /*LineAnimation*/
+.lineAnimation span {
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.lineAnimation span:before,
+.lineAnimation span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #ededed;
+  transition: all 0.2s ease;
+}
+.lineAnimation span:after {
+  width: 0%;
+  height: 2px;
+}
+.lineAnimation span:hover:after {
+  width: 100%;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes saltoImg {
+  0%, 100% {top: 0;}
+  30% {top: -10px;}
+}
