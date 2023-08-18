@@ -25,3 +25,4 @@ The template include a application clean ready for the use.
 * framer-motion,
 * jquery,
 * bootstrap,
+* mysql - mysql2
