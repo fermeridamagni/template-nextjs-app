@@ -8,12 +8,6 @@ export const fontText = Tilt_Neon({
 });
 
 export const fontTitle = LocalFont({
-  src: [
-    {
-      path: './gagalin.otf',
-      weight: '400',
-      variable: '--font-title',
-      style: 'regular'
-    }
-  ]
+  src: './gagalin.otf',
+  variable: '--font-title'
 });
