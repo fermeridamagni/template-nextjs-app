@@ -8,7 +8,14 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
 
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-text)'],
+        sans: ['var(--font-title)']
+      },
+    }
+  },
   
   plugins: [
     require('tailwindcss-animated')
