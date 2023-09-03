@@ -22,6 +22,8 @@ The template include a application clean ready for the use.
 
 **Optional Packages:**
 
+* @nextui-org/react,
 * framer-motion,
 * jquery,
 * bootstrap,
+* mysql - mysql2
