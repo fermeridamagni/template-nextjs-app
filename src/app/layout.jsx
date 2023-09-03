@@ -1,6 +1,6 @@
 import '@/resources/styles/globals.css';
 
-import { fontText } from '@/resources/fonts/fonts.config';
+import { fontText, fontTitle } from '@/resources/fonts/fonts.config';
 
 export const metadata = {
   title: '',
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={fontText.className}>
+      <body className={`${fontText.variable} ${fontTitle.variable} w-screen h-screen`}>
         {children}
       </body>
     </html>
