@@ -1,6 +1,6 @@
 # **Template to create NextJS applications fast and easy by [@fermeridamagni](https://github.com/fermeridamagni)**
 
-The template include a application clean ready for the use.
+The template include a application clean and ready for the use.
 
 
 **Packages in use:**
