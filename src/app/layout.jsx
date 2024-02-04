@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${fontText.variable} ${fontTitle.variable} w-screen h-screen`}>
+      <body className={`${fontText.variable} ${fontTitle.variable} w-full h-screen`}>
         {children}
       </body>
     </html>
